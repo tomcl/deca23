@@ -3,12 +3,10 @@ MOV R6, #-1
 MOV R7, #13
 MOV R0, R6 // test MOV
 ADD R1, R5, R7 // test ADD
-ADD R2, R5, R6 // test ADD
-ADD R1, #3 // test ADD with literal op2
-ADD R1, #255 // test ADD with literal op2
-MOV R1, R1 // test MOV
-ADD R0, R0, R0 // test ADD
-ADD R0, #0  // test ADD
+ADD R2, #3 // test ADD with literal op2
+ADD R4, #255 // test ADD with literal op2
+
+
 
 
 
